@@ -2,6 +2,7 @@ import argparse
 import glob
 import os
 import random
+import shutil
 
 import numpy as np
 
@@ -17,7 +18,17 @@ def split(source, destination):
         - source [str]: source data directory, contains the processed tf records
         - destination [str]: destination data directory, contains 3 sub folders: train / val / test
     """
-    # TODO: Implement function
+    list_files = os.listdir(source)
+
+    random_list = random.sample(list_files, 100)
+    for i , file in enumerate(random_list):
+        if(i < 87):
+            shutil.copy(source + "/" + file, destination + "/train")
+        elif(i < 97):
+            shutil.copy(source + "/" + file, destination + "/val")
+        else:
+            shutil.copy(source + "/" + file, destination + "/test")
+
 
 
 if __name__ == "__main__":
