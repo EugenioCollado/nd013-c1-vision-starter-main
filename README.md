@@ -1,4 +1,4 @@
-The results of the model's inference (the one trained with augmented data) can be apreciated in both animations gifs.
+The results of the model's inference (the one trained with augmented data) can be apreciated in both animations gifs, the main features and conclussions of the project can be found in the file "project_writeup.pdf".
 
 - Encountered problems with the installed version of keras in the Udacity docker instalation, so the first step in order to run the programs is mathching the keras version with the tensorflow's version. This is achieved by writing in the dockers terminal: pip install keras==2.5.0rc0
 
