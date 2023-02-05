@@ -1,4 +1,9 @@
-Encountered problems with the installed version of keras in the Udacity docker instalation, so the first step in order to run the programs is mathching the keras version with the tensorflow's version. This is achieved by writing in the dockers terminal: pip install keras==2.5.0rc0
+The results of the model's inference (the one trained with augmented data) can be apreciated in both animations gifs.
+
+- Encountered problems with the installed version of keras in the Udacity docker instalation, so the first step in order to run the programs is mathching the keras version with the tensorflow's version. This is achieved by writing in the dockers terminal: pip install keras==2.5.0rc0
+
+Further details for downloading and running this git can be found in the next lines and in the Udacity web.
+
 # Object Detection in an Urban Environment
 
 ## Data
